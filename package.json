@@ -1,0 +1,31 @@
+{
+  "name": "graphbook",
+  "version": "1.0.0",
+  "description": "Simple API project to learn graphql server stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinczedani/graphbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinczedani/graphbook/issues"
+  },
+  "homepage": "https://github.com/vinczedani/graphbook#readme",
+  "dependencies": {
+    "apollo-server": "^2.22.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "nodemon": "^2.0.7"
+  }
+}

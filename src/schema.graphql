@@ -1,0 +1,20 @@
+type Query {
+    healthCheck: String!
+
+    users: [User!]!
+    user(_id: ID!): User
+    friends(_id: ID!): [User!]!
+}
+
+type Mutation {
+  createUser(
+    email: String!
+    name: String!
+    password: String!
+  ): User!
+}
+
+type User {
+    _id: ID!
+    name: String!
+}
